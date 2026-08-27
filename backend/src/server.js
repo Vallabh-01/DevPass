@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+const pool = require("./config/database");
 const express = require("express");
 const healthRoutes = require("./routes/health.routes");
 
